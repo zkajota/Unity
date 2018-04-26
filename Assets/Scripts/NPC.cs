@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//////////////////////////////////////////////////////////////
+//NPC class. Queueing of actions, Assigning of needs
+//////////////////////////////////////////////////////////////
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;

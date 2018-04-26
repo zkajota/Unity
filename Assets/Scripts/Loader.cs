@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿//////////////////////////////////////////////////////////////
+//This script is responsible for loading XML files.
+//Saving is implemented too, but not used.
+//////////////////////////////////////////////////////////////
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
