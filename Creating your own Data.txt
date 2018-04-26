@@ -1,0 +1,43 @@
+The following can be created:
+
+NPCs
+Actions
+Needs
+
+All of them are in the Assets/Data folder, in corresponding folders.
+You can check example files to see how they are structured.
+
+NPCs are loaded in automatically, but require appropriate spawn points placed in the scene.
+
+In order to add a new node, copy an existing one. Name does not matter, but it needs to be an area child object.
+
+Each node has ActionObjectScript. It holds the NAME of an action that can be performed there.
+For example, "Food" means that "Food action is performed in this spot.
+
+Each Action holds the following:
+Name - used for identification
+ImageName - used for queueing image
+forNeed - which need this action fulfills
+Color - what colour the NPC becomes when doing the action.
+
+
+Example of implementing a new "eatBurger" action, which fills food need.
+
+
+1) Create new action file
+<?xml version="1.0" encoding="iso-8859-2"?>
+<ActionClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>EatBurger</name>
+  <imageName>Burger</imageName>
+  <forNeed>Food</forNeed>
+  <color>
+    <r>0</r>
+    <g>1</g>
+    <b>0</b>
+    <a>1</a>
+  </color>
+</ActionClass>
+
+2) Edit the test scene
+2.1 Copy the FoodObject in "Area"
+2.2 Change ActionObjectScript "Name" to "EatBurger"
