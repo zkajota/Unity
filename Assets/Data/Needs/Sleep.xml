@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="iso-8859-2"?>
-<NeedClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <name>Sleep</name>
-  <imageName>Sleep</imageName>
-  <needValue>0</needValue>
-  <growthRate>0.2</growthRate>
-  <queued>false</queued>
-</NeedClass>
